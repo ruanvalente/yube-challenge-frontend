@@ -41,13 +41,13 @@ O teste consiste em criar um web app para criação de playlists utilizando a AP
 Primeiramente clone este repositório.
 
 ```
-git clone https://github.com/ruanvalente/yube-challenge
+git clone https://github.com/ruanvalente/yube-challenge-frontend
 ```
 
-Entre na pasta `frontend` e rode o comando `yarn` ou `npm install`, para instalar as dependências do projeto.
+Entre na pasta `yube-challenge-frontend` e rode o comando `yarn` ou `npm install`, para instalar as dependências do projeto.
 
 ```
-cd frontend
+cd yube-challenge-frontend
 yarn start
 ```
 
