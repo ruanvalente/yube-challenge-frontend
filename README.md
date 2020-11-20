@@ -35,6 +35,7 @@ O teste consiste em criar um web app para criação de playlists utilizando a AP
 - [localStorage](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage)
 - [Styled Components](https://styled-components.com)
 - [TypeScript](https://www.typescriptlang.org)
+- [React Testing Library](https://testing-library.com/docs/react-testing-library/intro/)
 
 ## Como utilizar 🤔
 
@@ -56,6 +57,14 @@ Ou usando o `npm`
 ```
 npm start
 ```
+## Executando os testes
+
+Entre na pasta e rode o seguinte comando ```yarn test```
+
+
+## Veja a aplicação no ar :smile:
+
+[Clique aqui :smile:](https://yube-challenge-frontend.ruanopensuselinux.vercel.app)
 
 E agora é só se divertir :smile:
 
