@@ -11,7 +11,7 @@ const Login: React.FC = () => {
       <Title>Se conecte ao mundo da música</Title>
 
       <Container>
-        <button type="submit">
+        <button data-testid="login" type="submit">
           <a
             href={
               process.env.REACT_APP_AUTH_API_URL ||

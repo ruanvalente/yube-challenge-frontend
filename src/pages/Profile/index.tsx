@@ -13,6 +13,8 @@ import { User } from '../../types/user'
 import { Artist } from '../../types/artist'
 import { Tracks } from '../../types/tracks'
 
+import { useLocalStorage } from '../../hooks/useLocalStorage'
+
 import { formatDate } from '../../helpers/formatDate'
 
 import DefaultImage from '../../assets/default-image.jpg'
@@ -129,6 +131,7 @@ const Profile: React.FC = () => {
           </header>
           <form onSubmit={handlerSearch}>
             <input
+              data-testid="input-profile"
               type="text"
               placeholder="Digite sua música/artista"
               value={search}
